@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   
+    <item android:id="@+id/viewed_episode" 
+          android:visible="true" 
+          android:icon="@drawable/ic_action_next"           
+          android:orderInCategory="200"
+          app:showAsAction="always|withText" 
+          android:title=" Viewed Episode" 
+          android:enabled="true"/>    
+    
+    <item android:id="@+id/save"
+       	  android:visible="true"                 
+          android:orderInCategory="300"
+          android:icon="@drawable/ic_action_save"
+          app:showAsAction="ifRoom" 
+          android:title=" Save" 
+          android:enabled="true"/>
+    
+    <item android:id="@+id/delete"
+       	  android:visible="true"                 
+          android:orderInCategory="400"          
+          app:showAsAction="never" 
+          android:title=" Delete" 
+          android:enabled="true"/>
+    
+    <item android:id="@+id/getImage"
+       	  android:visible="true"                 
+          android:orderInCategory="450"          
+          app:showAsAction="never" 
+          android:title=" get Series Image" 
+          android:enabled="true"/>
+    
+     <item android:id="@+id/getIMDB"
+       	  android:visible="true"                 
+          android:orderInCategory="500"          
+          app:showAsAction="never" 
+          android:title=" get IMDB link" 
+          android:enabled="true"/>
+     
+     <item android:id="@+id/getWiki"
+       	  android:visible="true"                 
+          android:orderInCategory="600"          
+          app:showAsAction="never" 
+          android:title=" get Wiki link" 
+          android:enabled="true"/>
+     
+    	
+</menu>

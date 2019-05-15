@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Doa Series</string>
+    <string name="app_short_name">Doa\'\s series</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="detail_activity_name">Details</string>
+    <string name= "get_website_activity_name">Get Website URL</string>
+    
+    <string-array name="status_keuze">
+    	<item>"Continuing"</item>
+    	<item>"Paused"</item>
+    	<item>"Finished"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_settings"       
+          android:title="@string/action_settings"
+          android:orderInCategory="100"          
+          android:showAsAction="never"/>
+    <item android:id="@+id/add_new_serie" 
+          android:visible="true" 
+          android:icon="@drawable/ic_action_new"           
+          android:orderInCategory="200"
+          app:showAsAction="always|withText" 
+          android:title=" New Serie" 
+          android:enabled="true"/>
+    
+     <item android:id="@+id/export_database" 
+          android:visible="true"              
+          android:orderInCategory="400"
+          android:showAsAction="never"         
+          android:title="Export database" 
+          android:enabled="true"/>    
+    
+    <item android:id="@+id/import_database" 
+          android:visible="true"              
+          android:orderInCategory="500"
+          android:showAsAction="never"         
+          android:title="Import database" 
+          android:enabled="true"/>       
+          
+</menu>
